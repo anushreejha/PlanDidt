@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to PlanDidt</title>
+    <link rel="stylesheet" href="../styles/home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>P</span>
+            <span>l</span>
+            <span>a</span>
+            <span>n</span>
+            <span>D</span>
+            <span>i</span>
+            <span>d</span>
+            <span>t</span>         
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./pomodoro.html" id="pomodoro">Pomodoro Timer</a></li>
+                <li><a href="./calendar.html" id="calendar">Calendar</a></li>
+                <li><a href="./todo.html" id="todo">Todo List</a></li>
+                <li><a href="./taskManager.html" id="taskManager">Task Manager</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <h1 class="welcome-heading" id="welcomeHeading"></h1>
+    </div>
+    <script src="../scripts/home.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const welcomeHeading = document.getElementById("welcomeHeading");
+            welcomeHeading.textContent = "Welcome to Plandidt!";
+        });
+    </script>
+</body>
+</html>

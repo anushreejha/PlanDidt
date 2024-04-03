@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span:nth-child(1) {
+    color: #dce5f4; 
+}
+
+.logo span:nth-child(2) {
+    color: #c2cbdd; 
+}
+
+.logo span:nth-child(3) {
+    color: black; 
+}
+
+.logo span:nth-child(4) {
+    color: black; 
+}
+
+.logo span:nth-child(5) {
+    color: #dec1da; 
+}
+
+.logo span:nth-child(6) {
+    color: black; 
+}
+
+.logo span:nth-child(7) {
+    color: black; 
+}
+
+.logo span:nth-child(8) {
+    color: #d2b1cc; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.pomodoro-container {
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+}
+
+.pomodoro-timer {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.pomodoro-controls {
+    margin-top: 20px;
+}
+
+.pomodoro-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.pomodoro-button:hover {
+    background-color: #0056b3;
+}
